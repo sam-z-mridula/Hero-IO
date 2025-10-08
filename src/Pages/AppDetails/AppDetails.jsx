@@ -1,20 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadImg from "../../assets/icon-downloads.png"
 import ratingImg from "../../assets/icon-ratings.png"
 import reviewImg from "../../assets/icon-review.png"
+import { addToStoredDB } from '../../utility/addToDB';
 
 
 const AppDetails = () => {
+
+    const [isActive, setIsActive] = useState(true);
 
     const {id} = useParams();
     const appId = parseInt(id);
     // console.log(id);
     const appData = useLoaderData();
     const singleApp = appData.find(app => app.id === appId)
-    console.log(singleApp);
+    // console.log(singleApp);
 
     const {image, title, companyName, downloads, size, ratingAvg, reviews} = singleApp;
+
+    const handleInstallation = (id) => {
+        addToStoredDB(id);
+    }
+
+    const handleDisabled = () => {
+        setIsActive(false);
+    }
 
     return (
         <div className='container mx-auto my-20 '>
@@ -45,7 +56,9 @@ const AppDetails = () => {
                             <h1 className='text-4xl font-extrabold'> {reviews} </h1>
                         </div>
                     </div>
-                    <button className='btn bg-[#00D390] p-6 text-white text-xl'> Install Now ({size}M)</button>
+                    <button onClick={() => {
+                        handleInstallation(id)
+                        handleDisabled()}} className={`btn bg-[#00D390] p-6 text-white text-xl`} disabled={!isActive}> Install Now ({size}M) </button>
                 </div>
             </div>
         </div>
