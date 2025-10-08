@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import SingleApp from '../SingleApp/SingleApp';
 import { TrendingUp } from 'lucide-react';
+import { Link } from 'react-router';
 
 const Apps = ({appData}) => {
     return (
@@ -14,6 +15,8 @@ const Apps = ({appData}) => {
                     }
                 </div>
             </Suspense>
+
+            <Link to='/all-apps' className='mt-15 btn px-7 py-6 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-lg font-medium text-white'> Show All </Link>
         </div>
     );
 };
