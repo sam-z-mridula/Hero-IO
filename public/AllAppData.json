@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/LD6ppc2F/forest.png",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "SeekrTech",
+    "id": 1,
+    "description": "Stay focused and be present by growing virtual trees as you avoid distractions.",
+    "size": 120,
+    "reviews": "1.5M",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 1230000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zhrNsKqC/SmPlan.png",
+    "title": "SmPlan: ToDo List with Reminder",
+    "companyName": "Smarter Productivity",
+    "id": 2,
+    "description": "Smart daily planner with task tracking and progress analysis for productive days.",
+    "size": 85,
+    "reviews": "125K",
+    "ratingAvg": 4.5,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 85000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zV393HFN/FLIP.png",
+    "title": "FLIP: Focus Timer for Study",
+    "companyName": "Rinasoft Inc.",
+    "id": 3,
+    "description": "Track your study and focus time with detailed analytics and rankings.",
+    "size": 95,
+    "reviews": "950K",
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 705000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/70WBdyf/Pomocat.png",
+    "title": "Pomocat: Cute Pomodoro Timer",
+    "companyName": "Pomocat Studio",
+    "id": 4,
+    "description": "Cute cat-themed Pomodoro timer to boost your focus and reduce procrastination.",
+    "size": 70,
+    "reviews": "120K",
+    "ratingAvg": 4.6,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 81500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pjr5pF6p/Time-Planner.jpg",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "ALMA Time Management",
+    "id": 5,
+    "description": "Organize your life, schedule tasks, and track habits with flexible time blocks.",
+    "size": 60,
+    "reviews": "600K",
+    "ratingAvg": 4.4,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 110000 },
+      { "name": "5 star", "count": 438000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xqNhWpNn/Flip-Clock.webp",
+    "title": "Flip Clock: Focus & Study Timer",
+    "companyName": "Smart Widget Labs",
+    "id": 6,
+    "description": "Minimal flip clock for focus, aesthetic desk setup, and time tracking.",
+    "size": 50,
+    "reviews": "400K",
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 298000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Morning Habits: Daily Routine",
+    "companyName": "SelfGrow",
+    "id": 7,
+    "description": "Start your mornings right with guided routines and habit tracking.",
+    "size": 90,
+    "reviews": "90K",
+    "ratingAvg": 4.6,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 57500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wNLZCBTy/Todoist.png",
+    "title": "Todoist: Organize Work & Life",
+    "companyName": "Doist Inc.",
+    "id": 8,
+    "description": "Organize your work and life with powerful task management and collaboration tools.",
+    "size": 100,
+    "reviews": "2M",
+    "ratingAvg": 4.8,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1630000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Notion: Notes, Tasks & Wikis",
+    "companyName": "Notion Labs",
+    "id": 9,
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
+    "size": 110,
+    "reviews": 1800000,
+    "ratingAvg": 4.7,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 1340000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "TickTick: To-Do List & Calendar",
+    "companyName": "Appest Inc.",
+    "id": 10,
+    "description": "Manage tasks, habits, and reminders in one productivity app.",
+    "size": 95,
+    "reviews": 850000,
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 716000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Habitica: Gamified Task Manager",
+    "companyName": "HabitRPG Inc.",
+    "id": 11,
+    "description": "Gamify your habits and stay motivated by turning your life into an RPG.",
+    "size": 80,
+    "reviews": 400000,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 287000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Focus To-Do: Pomodoro Timer",
+    "companyName": "Pomodoro & Task Timer",
+    "id": 12,
+    "description": "Pomodoro timer with task management to keep you productive all day.",
+    "size": 85,
+    "reviews": 750000,
+    "ratingAvg": 4.6,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 610000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Evernote: Notes Organizer",
+    "companyName": "Evernote Corp.",
+    "id": 13,
+    "description": "Take notes, organize your thoughts, and capture ideas on the go.",
+    "size": 130,
+    "reviews": 2200000,
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 1680000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Trello: Organize Anything",
+    "companyName": "Atlassian",
+    "id": 14,
+    "description": "Organize your projects and tasks visually using customizable boards.",
+    "size": 90,
+    "reviews": 1500000,
+    "ratingAvg": 4.5,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1130000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "RescueTime: Time Tracker",
+    "companyName": "RescueTime Team",
+    "id": 15,
+    "description": "Track where your time goes and build better work habits automatically.",
+    "size": 75,
+    "reviews": 180000,
+    "ratingAvg": 4.4,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 121000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Minimalist Clock: Focus Timer",
+    "companyName": "Focus Lab",
+    "id": 16,
+    "description": "Aesthetic minimalist clock widget for focus sessions and study setups.",
+    "size": 40,
+    "reviews": 85000,
+    "ratingAvg": 4.6,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 58300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Microsoft To Do: Task Manager",
+    "companyName": "Microsoft Corporation",
+    "id": 17,
+    "description": "Plan your day, manage tasks, and sync with Outlook and Office 365.",
+    "size": 120,
+    "reviews": 2500000,
+    "ratingAvg": 4.7,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1940000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Fabulous: Daily Routine Planner",
+    "companyName": "TheFabulous",
+    "id": 18,
+    "description": "Build healthy routines and achieve your goals with a personalized coach.",
+    "size": 105,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1380000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Asana: Work Manager",
+    "companyName": "Asana, Inc.",
+    "id": 19,
+    "description": "Team collaboration and work management platform for productivity.",
+    "size": 100,
+    "reviews": 950000,
+    "ratingAvg": 4.6,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 743000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "title": "Clockify: Time Tracker & Timesheet",
+    "companyName": "COING Inc.",
+    "id": 20,
+    "description": "Track your work hours, projects, and productivity with the best free time tracker.",
+    "size": 80,
+    "reviews": 450000,
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 351000 }
+    ]
+  }
+]

@@ -9,9 +9,9 @@ import { MdInstallMobile } from "react-icons/md";
 const Navbar = () => {
   const links = (
     <>
-      <Link className="m-2 mx-5 text-lg font-semibold flex gap-1"> <House size={23}></House> Home</Link>
-      <Link className="m-2 mx-5 text-lg font-semibold flex gap-1 items-center"> <RiAppsLine size={23}></RiAppsLine> Apps</Link>
-      <Link className="m-2 mx-5 text-lg font-semibold flex gap-1 items-center"> <MdInstallMobile></MdInstallMobile> Installation</Link>
+      <NavLink to='/' className="m-2 px-5 text-lg font-semibold flex gap-1"> <House size={23}></House> Home</NavLink>
+      <NavLink to='/all-apps' className="m-2 px-5 text-lg font-semibold flex gap-1 items-center"> <RiAppsLine size={23}></RiAppsLine> Apps</NavLink>
+      <Link className="m-2 px-5 text-lg font-semibold flex gap-1 items-center"> <MdInstallMobile></MdInstallMobile> Installation</Link>
     </>
   );
 
@@ -44,9 +44,9 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost">
+          <Link to='/' className="flex items-center">
             <img className="w-10" src={logo} alt="" />
-            <span className="text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">HERO.IO</span></a>
+            <span className="text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">HERO.IO</span></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>

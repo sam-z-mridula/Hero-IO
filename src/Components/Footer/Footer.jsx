@@ -37,7 +37,7 @@ const Footer = () => {
         <nav className="w-fit mx-auto">
           <h6 className="footer-title">Contact Us</h6>
           <a className="link link-hover flex items-center gap-2"> <Mail size={20}></Mail> contact@hero.io</a>
-          <Link className="flex items-center gap-2"> <FaPhoneAlt size={18}></FaPhoneAlt> 01322-901105 </Link>
+          <Link className="link link-hover flex items-center gap-2"> <FaPhoneAlt size={18}></FaPhoneAlt> 01322-901105 </Link>
 
           <h6 className="footer-title mt-5 mb-1">Follow Us</h6>
           <div className="flex items-center gap-3"> 
