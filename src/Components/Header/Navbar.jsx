@@ -1,14 +1,17 @@
 import React from "react";
 import logo from "../../assets/logo.png"
 import githubLogo from "../../assets/github.png"
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
+import { House } from "lucide-react";
+import { RiAppsLine } from "react-icons/ri";
+import { MdInstallMobile } from "react-icons/md";
 
 const Navbar = () => {
   const links = (
     <>
-      <li className="m-2 text-lg font-semibold">Home</li>
-      <li className="m-2 text-lg font-semibold">Apps</li>
-      <li className="m-2 text-lg font-semibold">Installation</li>
+      <Link className="m-2 mx-5 text-lg font-semibold flex gap-1"> <House size={23}></House> Home</Link>
+      <Link className="m-2 mx-5 text-lg font-semibold flex gap-1 items-center"> <RiAppsLine size={23}></RiAppsLine> Apps</Link>
+      <Link className="m-2 mx-5 text-lg font-semibold flex gap-1 items-center"> <MdInstallMobile></MdInstallMobile> Installation</Link>
     </>
   );
 
@@ -25,13 +28,13 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                {" "}
+                
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
+                />
               </svg>
             </div>
             <ul

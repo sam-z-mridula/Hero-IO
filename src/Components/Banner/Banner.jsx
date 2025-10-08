@@ -37,7 +37,7 @@ const Banner = () => {
       </div>
 
       <div className="p-20 bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white">
-        <h1 className="text-4xl font-semibold">Trusted By Million, Built For You</h1>
+        <h1 className="text-5xl font-semibold">Trusted By Million, Built For You</h1>
         <div className="mt-8 flex gap-30 w-fit mx-auto">
             <div>
                 <p className="font-light text-gray-300 text-sm">Total Downloads</p>
