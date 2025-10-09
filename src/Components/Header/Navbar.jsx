@@ -10,8 +10,10 @@ const Navbar = () => {
   const links = (
     <>
       <NavLink to='/' className="m-2 px-5 text-lg font-semibold flex gap-1"> <House size={23}></House> Home</NavLink>
+
       <NavLink to='/all-apps' className="m-2 px-5 text-lg font-semibold flex gap-1 items-center"> <RiAppsLine size={23}></RiAppsLine> Apps</NavLink>
-      <Link className="m-2 px-5 text-lg font-semibold flex gap-1 items-center"> <MdInstallMobile></MdInstallMobile> Installation</Link>
+
+      <NavLink to='/installedApps' className="m-2 px-5 text-lg font-semibold flex gap-1 items-center"> <MdInstallMobile></MdInstallMobile> Installation</NavLink>
     </>
   );
 

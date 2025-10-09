@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadImg from "../../assets/icon-downloads.png"
 import ratingImg from "../../assets/icon-ratings.png"
 import reviewImg from "../../assets/icon-review.png"
-import { addToStoredDB } from '../../utility/addToDB';
+import { addToStoredDB, getStoredApp } from '../../utility/addToDB';
 
 
 const AppDetails = () => {
 
+    // const [appToDisable, setAppToDisable] = useState([])
     const [isActive, setIsActive] = useState(true);
 
     const {id} = useParams();
     const appId = parseInt(id);
-    // console.log(id);
-    const appData = useLoaderData();
-    const singleApp = appData.find(app => app.id === appId)
-    // console.log(singleApp);
-
+    
+    const data = useLoaderData();
+    const singleApp = data.find(app => app.id === appId)
+    
     const {image, title, companyName, downloads, size, ratingAvg, reviews} = singleApp;
 
     const handleInstallation = (id) => {
@@ -26,6 +26,22 @@ const AppDetails = () => {
     const handleDisabled = () => {
         setIsActive(false);
     }
+
+    useEffect(() => {
+        const storedAppData = getStoredApp();
+        const convertedAppData = storedAppData.map(id => parseInt(id));
+        const appsToDisable = data.filter(app => convertedAppData.includes(app.id));
+        // setAppToDisable(appsToDisable);
+        console.log(appId);
+        console.log(appsToDisable);
+
+         appsToDisable.map(app => {
+            if (app.id === appId) {
+                setIsActive(false);
+            }
+        })
+        
+    }, [])
 
     return (
         <div className='container mx-auto my-20 '>
@@ -43,7 +59,7 @@ const AppDetails = () => {
                         <div>
                             <img src={downloadImg} alt="" />
                             <p className='text-gray-500 text-sm my-2'>Downloads</p>
-                            <h1 className='text-4xl font-extrabold'> {downloads} </h1>
+                            <h1 className='text-4xl font-extrabold'> {downloads}M </h1>
                         </div>
                         <div>
                             <img src={ratingImg} alt="" />
@@ -58,7 +74,7 @@ const AppDetails = () => {
                     </div>
                     <button onClick={() => {
                         handleInstallation(id)
-                        handleDisabled()}} className={`btn bg-[#00D390] p-6 text-white text-xl`} disabled={!isActive}> Install Now ({size}M) </button>
+                        handleDisabled()}} className={`btn bg-[#00D390] p-6 text-white text-xl`} disabled={!isActive}> {isActive ? `Install Now (${size}M)`: 'Installed'} </button>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
     "size": 120,
     "reviews": 560000,
     "ratingAvg": 4.8,
-    "downloads": "10M",
+    "downloads": 10,
     "ratings": [
       { "name": "1 star", "count": 5000 },
       { "name": "2 star", "count": 4000 },
@@ -26,7 +26,7 @@
     "size": 48,
     "reviews": 92000,
     "ratingAvg": 4.6,
-    "downloads": "1M",
+    "downloads": 1,
     "ratings": [
       { "name": "1 star", "count": 2000 },
       { "name": "2 star", "count": 1500 },
@@ -44,7 +44,7 @@
     "size": 65,
     "reviews": 430000,
     "ratingAvg": 4.7,
-    "downloads": "10M",
+    "downloads": 10,
     "ratings": [
       { "name": "1 star", "count": 7000 },
       { "name": "2 star", "count": 4000 },
@@ -60,9 +60,9 @@
     "id": 4,
     "description": "Cute cat-themed Pomodoro timer that helps you focus while rewarding progress with cats.",
     "size": 52,
-    "reviews": 88000,
+    "reviews": 400000,
     "ratingAvg": 4.6,
-    "downloads": "500K",
+    "downloads": 1,
     "ratings": [
       { "name": "1 star", "count": 1500 },
       { "name": "2 star", "count": 1000 },
@@ -80,7 +80,7 @@
     "size": 40,
     "reviews": 270000,
     "ratingAvg": 4.5,
-    "downloads": "5M",
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 8000 },
       { "name": "2 star", "count": 6000 },
@@ -98,7 +98,7 @@
     "size": 37,
     "reviews": 190000,
     "ratingAvg": 4.6,
-    "downloads": "5M",
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 4000 },
       { "name": "2 star", "count": 2500 },
@@ -116,7 +116,7 @@
     "size": 42,
     "reviews": 145000,
     "ratingAvg": 4.7,
-    "downloads": "2M",
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 2500 },
       { "name": "2 star", "count": 2000 },
@@ -134,7 +134,7 @@
     "size": 35,
     "reviews": 950000,
     "ratingAvg": 4.6,
-    "downloads": "10M",
+    "downloads": 10,
     "ratings": [
       { "name": "1 star", "count": 12000 },
       { "name": "2 star", "count": 10000 },

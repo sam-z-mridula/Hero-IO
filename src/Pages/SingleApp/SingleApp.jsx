@@ -14,7 +14,7 @@ const SingleApp = ({ singleApp }) => {
             <div className="">
                 <h1 className="font-semibold text-lg my-2"> {title} </h1>
                 <div className="flex justify-between items-center">
-                    <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded-lg text-[#00D390] font-semibold"> <Download className="h-4"></Download> {downloads} </span>
+                    <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded-lg text-[#00D390] font-semibold"> <Download className="h-4"></Download> {downloads}M </span>
                     <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded-lg text-orange-500"> <FaStar className="h-4 "></FaStar> {ratingAvg} </span>
                 </div>
             </div>
