@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { getStoredApp } from '../../utility/addToDB';
 import InstalledApp from '../InstalledApp/InstalledApp';
+import { FaDownload } from "react-icons/fa6";
 
 const InstalledApps = () => {
 
@@ -34,7 +35,7 @@ const InstalledApps = () => {
     return (
         <div className='container mx-auto mb-20'>
             <div className='my-15 text-center'>
-                <h1 className='text-4xl font-bold'>Your Installed Apps</h1>
+                <h1 className='text-4xl font-bold flex items-center w-fit mx-auto gap-2'>Your Installed Apps <FaDownload /> </h1>
                 <p className='text-gray-500 my-3'>Explore All Apps on the Market developed by us</p>
             </div>
 

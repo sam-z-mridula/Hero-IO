@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/21D26x1d/1-Notion.png",
     "title": "Notion: Notes, Tasks & Wikis",
     "companyName": "Notion Labs",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/vvsWW9Hr/2-ticktick.png",
     "title": "TickTick: To-Do List & Calendar",
     "companyName": "TickTick Limited",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/wDm8RKv/3-habitica.png",
     "title": "Habitica: Gamified Task Manager",
     "companyName": "HabitRPG Inc.",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/JWRJMBwp/image.png",
     "title": "Focus To-Do: Pomodoro Timer",
     "companyName": "Pomodoro Timer & To Do List - SuperElement Soft",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/3mrRTjmC/image.png",
     "title": "Evernote: Notes Organizer",
     "companyName": "Evernote Corp.",
     "id": 13,
@@ -234,8 +234,8 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
-    "title": "Trello: Organize Anything",
+    "image": "https://i.ibb.co.com/0xqwFzF/image.png",
+    "title": "Trello: Manage Team Projects",
     "companyName": "Atlassian",
     "id": 14,
     "description": "Trello is a highly flexible and intuitive project management tool that allows users to **organize your projects and tasks visually using customizable boards**. Based on the traditional Kanban system, Trello's core structure consists of Boards, which represent projects; Lists, which represent stages of work (e.g., To Do, Doing, Done); and Cards, which represent individual tasks. This visual, drag-and-drop interface makes complex workflows immediately understandable and easy to manage for both individuals and large teams.\n\nEach Card can be customized with checklists, attachments, due dates, comments, and member assignments, making it a rich environment for task detail and collaboration. Its strength lies in its simplicity and adaptability; users can manage everything from a personal vacation plan and a shopping list to a complex software development sprint. The ability to see all tasks and their current status at a glance fosters transparency and accountability across a team, while the highly visual layout keeps the planning process engaging and accessible. Trello is the perfect solution for anyone who needs a flexible, visual system to track progress and manage multiple projects without getting bogged down in hierarchical menus.",
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/nMFrPrKB/image.png",
     "title": "RescueTime: Time Tracker",
     "companyName": "RescueTime Team",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/CKMs4TbB/image.png",
     "title": "Minimalist Clock: Focus Timer",
     "companyName": "Focus Lab",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/fc1vC4M/image.png",
     "title": "Microsoft To Do: Task Manager",
     "companyName": "Microsoft Corporation",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/YMFhf5j/image.png",
     "title": "Fabulous: Daily Routine Planner",
     "companyName": "TheFabulous",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
+    "image": "https://i.ibb.co.com/0pswnR0S/image.png",
     "title": "Asana: Work Manager",
     "companyName": "Asana, Inc.",
     "id": 19,
@@ -342,9 +342,9 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y4dkfrny/Morning-Habits.webp",
-    "title": "Clockify: Time Tracker & Timesheet",
-    "companyName": "COING Inc.",
+    "image": "https://i.ibb.co.com/mkdh144/image.png",
+    "title": "Clockify - Time Tracker",
+    "companyName": "CAKE.com Inc",
     "id": 20,
     "description": "Clockify is widely recognized as the **best free time tracker**, offering a robust and intuitive solution for individuals and teams to **track your work hours, projects, and productivity**. The application allows users to start a timer with a single click, instantly logging the time spent on specific projects or tasks. This straightforward approach eliminates guesswork and provides accurate data on billable hours, project costs, and time allocation, making it invaluable for freelancers, consultants, and service-based businesses.\n\nThe app's utility extends beyond simple tracking with its comprehensive timesheet and reporting features. Users can easily generate detailed reports that show time distribution across different projects, clients, and team members, which is crucial for client invoicing and internal analysis of efficiency. Furthermore, Clockify supports a wide range of integrations and is available across multiple platforms, ensuring consistent tracking no matter where the work is being performed. By providing powerful, free tools for precise time logging and detailed reporting, Clockify empowers users to gain full visibility into their productivity, manage their capacity effectively, and ensure accurate billing.",
     "size": 80,

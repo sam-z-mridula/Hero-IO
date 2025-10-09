@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { useLoaderData } from 'react-router';
 import SingleApp from '../SingleApp/SingleApp';
+import { IoIosApps } from "react-icons/io";
 
 const AllApps = () => {
 
@@ -11,7 +12,7 @@ const AllApps = () => {
         <div className='container mx-auto mb-20'>
 
             <div className='my-15 text-center'>
-                <h1 className='text-4xl font-bold'>Our All Applications</h1>
+                <h1 className='text-4xl font-bold flex items-center w-fit mx-auto gap-2'>Our All Applications <IoIosApps size={50} /></h1>
                 <p className='text-gray-500 my-3'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
             
@@ -36,7 +37,7 @@ const AllApps = () => {
             </div>
 
             <Suspense fallback={<span>Loading...</span>}>
-                <div className='grid md:grid-cols-4 gap-3'>
+                <div className='grid md:grid-cols-4 gap-5'>
                     {
                         appData.map(app => <SingleApp key={app.id} singleApp={app}></SingleApp>)
                     }
