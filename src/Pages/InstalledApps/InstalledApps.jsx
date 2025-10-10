@@ -40,13 +40,13 @@ const InstalledApps = () => {
     }
 
     return (
-        <div className='container mx-auto mb-20'>
-            <div className='my-15 text-center'>
-                <h1 className='text-4xl font-bold flex items-center w-fit mx-auto gap-2'>Your Installed Apps <FaDownload /> </h1>
+        <div className='container mx-auto mb-20 w-[90%]'>
+            <div className='my-10 md:my-15 text-center'>
+                <h1 className='text-2xl md:text-4xl font-bold flex items-center w-fit mx-auto gap-2'>Your Installed Apps <FaDownload /> </h1>
                 <p className='text-gray-500 my-3'>Explore All Apps on the Market developed by us</p>
             </div>
 
-            <div className='flex items-center justify-between mb-5'>
+            <div className='flex md:flex-row flex-col items-center justify-between gap-3 mb-8 md:mb-5'>
                 <p className='text-xl font-semibold'>{appInstalled.length} Apps Found</p>
 
                 <details className="dropdown">
@@ -65,7 +65,7 @@ const InstalledApps = () => {
                     }
                     
                     return(
-                        <div className='grid gap-3'>
+                        <div className='grid gap-3 '>
                             {
                                 appInstalled.map(app => <InstalledApp key={app.id} app={app} 
                                     setAppInstalled={setAppInstalled} 

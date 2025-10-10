@@ -4,6 +4,7 @@ import { IoIosApps } from "react-icons/io";
 import AppError from '../Error/AppError';
 import { useLoaderData } from 'react-router';
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+import appErrImg from "../../assets/App-Error.png"
 
 
 const AllApps = () => {
@@ -21,7 +22,7 @@ const AllApps = () => {
 
         setTimeout(() => {
             setLoading(false); 
-        }, 350);
+        }, 200);
         
         };
 
@@ -30,12 +31,12 @@ const AllApps = () => {
         return (
             <div className='container mx-auto mb-20'>
     
-                <div className='my-15 text-center'>
-                    <h1 className='text-4xl font-bold flex items-center w-fit mx-auto gap-2'>Our All Applications <IoIosApps size={50} /></h1>
-                    <p className='text-gray-500 my-3'>Explore All Apps on the Market developed by us. We code for Millions</p>
+                <div className='my-10 md:my-15 text-center'>
+                    <h1 className='text-[26px] md:text-4xl font-bold flex items-center w-fit mx-auto gap-2'>Our All Applications <IoIosApps size={50} className='w-[11%]' /></h1>
+                    <p className='text-gray-500 my-3 md:w-full w-[80%] mx-auto'>Explore All Apps on the Market developed by us. We code for Millions</p>
                 </div>
                 
-                <div className='flex items-center justify-between mb-5'>
+                <div className='flex md:flex-row flex-col gap-4 items-center justify-between mb-10 md:mb-5'>
                     <p className='text-xl font-semibold'>({appData.length}) Apps Found</p>
     
                     <label className="input">
@@ -56,7 +57,7 @@ const AllApps = () => {
                 </div>
     
     
-                <div className='grid md:grid-cols-4 gap-5'>
+                <div className='grid md:grid-cols-4 gap-8 md:gap-5 w-[85%] mx-auto'>
                     
                     {
                         loading 
@@ -64,8 +65,10 @@ const AllApps = () => {
                                 <LoadingSpinner></LoadingSpinner> 
                             </div>) 
                         : filteredApps.length === 0 
-                            ? ( <div className='col-span-4'> 
-                                    <AppError></AppError> 
+                            ? ( <div className='col-span-4 text-center my-8'> 
+                                    <img className='w-80 mx-auto' src={appErrImg} alt="" /> 
+                                    <p className="text-3xl font-bold mt-5">No App Found</p>
+                                    <p className="text-gray-500 text-sm my-2"> The App you are requesting is not found on our system.  please try another app! </p>
                                 </div>) 
                             : ( filteredApps.map(app => ( <SingleApp key={app.id} singleApp={app} /> )))
                     }

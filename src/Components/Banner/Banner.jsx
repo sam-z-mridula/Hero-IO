@@ -6,14 +6,14 @@ import { Link } from "react-router";
 
 const Banner = () => {
   return (
-    <div className="my-20 text-center">
-      <div>
-        <h1 className="font-bold text-6xl leading-tight text-[#192f45]">
+    <div className="my-15 md:my-20 text-center">
+      <div className="container mx-auto">
+        <h1 className="font-bold text-4xl md:text-6xl leading-tight text-[#192f45]">
           We Build <br /> <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">Productive</span> Apps
         </h1>
-        <p className="text-gray-500 mt-5 mb-8">
+        <p className="text-gray-500 mt-5 mb-8 md:w-[63%] w-[90%] mx-auto">
           At HERO.IO, we craft innovative apps designed to make everyday life
-          simpler, smarter, and more exciting. <br /> Our goal is to turn your
+          simpler, smarter, and more exciting. Our goal is to turn your
           ideas into digital experiences that truly make an impact.
         </p>
 
@@ -36,22 +36,22 @@ const Banner = () => {
         <img className="mx-auto" src={heroImg} alt="" />
       </div>
 
-      <div className="p-20 bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white">
-        <h1 className="text-5xl font-semibold">Trusted By Million, Built For You</h1>
-        <div className="mt-8 flex gap-30 w-fit mx-auto">
+      <div className="py-10 px-8 md:p-20 bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white">
+        <h1 className="text-3xl md:text-5xl font-semibold w-[80%] mx-auto">Trusted By Million, Built For You</h1>
+        <div className="mt-8 flex flex-row flex-wrap justify-center gap-8 md:gap-30 w-fit mx-auto">
             <div>
-                <p className="font-light text-gray-300 text-sm">Total Downloads</p>
-                <h1 className="text-6xl font-bold my-3">29.6M</h1>
+                <p className="font-medium md:font-light md:text-gray-300 md:text-sm">Total Downloads</p>
+                <h1 className="text-4xl md:text-6xl font-bold my-2 md:my-3">29.6M</h1>
                 <p className="font-light text-gray-300 text-sm">21% more than last month</p>
             </div>
             <div>
-                <p className="font-light text-gray-300 text-sm">Total Reviews</p>
-                <h1 className="text-6xl font-bold my-3">906K</h1>
+                <p className="font-medium md:font-light md:text-gray-300 md:text-sm">Total Reviews</p>
+                <h1 className="text-4xl md:text-6xl font-bold my-2 md:my-3">906K</h1>
                 <p className="font-light text-gray-300 text-sm">46% more than last month</p>
             </div>
             <div>
-                <p className="font-light text-gray-300 text-sm">Active Apps</p>
-                <h1 className="text-6xl font-bold my-3">132+</h1>
+                <p className="font-medium md:font-light md:text-gray-300 md:text-sm">Active Apps</p>
+                <h1 className="text-4xl md:text-6xl font-bold my-2 md:my-3">132+</h1>
                 <p className="font-light text-gray-300 text-sm">31 more will Launch</p>
             </div>
             

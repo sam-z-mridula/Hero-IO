@@ -8,7 +8,7 @@ const ReviewChart = ({ratings}) => {
     return (
         <div className='mt-10'>
             <h1 className='mb-5 text-xl font-semibold'>Rating</h1>
-        <ResponsiveContainer width="90%" height={350}>
+        <ResponsiveContainer width="100%" height={300} className='md:rotate-0'>
             <BarChart
                 data={reversedData}
                 layout='vertical'>
@@ -16,7 +16,7 @@ const ReviewChart = ({ratings}) => {
                     <XAxis type='number'></XAxis>
                     <YAxis dataKey="name" type='category'></YAxis>
                     <Tooltip></Tooltip>
-                    <Bar dataKey="count" fill='#ff9500' barSize={45}></Bar>
+                    <Bar dataKey="count" fill='#ff9500' barSize={30}></Bar>
                 </BarChart>
         </ResponsiveContainer>
         </div>
