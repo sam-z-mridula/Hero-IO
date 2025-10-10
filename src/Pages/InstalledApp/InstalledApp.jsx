@@ -1,10 +1,16 @@
 import { Download } from 'lucide-react';
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
+// import { removeFromDB } from '../../utility/addToDB';
+// import { removeFromDB } from '../../utility/addToDB';
 
-const InstalledApp = ({app}) => {
+const InstalledApp = ({app, handleDelete}) => {
 
     const {image, title, downloads, ratingAvg, size} = app;
+
+    const handleRemove = () => {
+        handleDelete(app);
+    }
 
     return (
         <div className='flex justify-between items-center bg-white rounded-xl p-3 shadow-sm'>
@@ -23,7 +29,9 @@ const InstalledApp = ({app}) => {
             </div>
 
             <div>
-                <button className='btn bg-[#00D390] text-white rounded-lg'>Uninstall</button>
+                <button onClick={() => {
+                    handleRemove()
+                }} className='btn bg-[#00D390] text-white rounded-lg'>Uninstall</button>
             </div>
         </div>
     );

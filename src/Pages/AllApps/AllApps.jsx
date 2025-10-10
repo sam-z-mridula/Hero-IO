@@ -1,12 +1,17 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import SingleApp from '../SingleApp/SingleApp';
 import { IoIosApps } from "react-icons/io";
+import AppError from '../Error/AppError';
 
 const AllApps = () => {
 
+    const [search, setSearch] = useState('');
+    // console.log(search);
+
     const appData = useLoaderData();
-    console.log(appData);
+
+    const filteredApps = appData.filter(app => search.toLowerCase() === '' ? app : app.title.toLowerCase().includes(search.toLowerCase()));
 
     return (
         <div className='container mx-auto mb-20'>
@@ -32,14 +37,24 @@ const AllApps = () => {
                         <path d="m21 21-4.3-4.3"></path>
                         </g>
                     </svg>
-                    <input type="search" required placeholder="Search Apps" />
+                    <input type="search" required onChange={e => setSearch(e.target.value)} placeholder="Search Apps" />
                 </label>
             </div>
 
             <Suspense fallback={<span>Loading...</span>}>
                 <div className='grid md:grid-cols-4 gap-5'>
                     {
-                        appData.map(app => <SingleApp key={app.id} singleApp={app}></SingleApp>)
+                        (() => {
+                            if (filteredApps.length === 0) {
+                                return (
+                                    <div className='col-span-4'>
+                                        <AppError></AppError>
+                                    </div>
+                                )
+                            }
+
+                            return filteredApps.map(app => <SingleApp key={app.id} singleApp={app}></SingleApp>)
+                        })()
                     }
                 </div>
             </Suspense>

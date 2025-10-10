@@ -19,12 +19,12 @@ const Banner = () => {
 
         <div className="flex gap-5 w-fit mx-auto">
 
-          <Link to={'https://play.google.com/store/games?hl=en'} className="btn py-7 flex items-center gap-3">
+          <Link to={'https://play.google.com/store/games?hl=en'} className="btn py-7 flex items-center gap-3 shadow-lg">
             <img src={GooglePlay} alt="" />
             <span className="text-lg font-semibold">Google Play</span>
           </Link>
 
-          <Link to={'https://www.apple.com/app-store/'} className="btn py-7 flex items-center gap-3">
+          <Link to={'https://www.apple.com/app-store/'} className="btn py-7 flex items-center gap-3 shadow-lg">
             <img src={AppStore} alt="" />
             <span className="text-lg font-semibold">App Store</span>
           </Link>

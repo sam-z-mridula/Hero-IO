@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
-import { getStoredApp } from '../../utility/addToDB';
+import { getStoredApp, removeFromDB } from '../../utility/addToDB';
 import InstalledApp from '../InstalledApp/InstalledApp';
 import { FaDownload } from "react-icons/fa6";
+import NoAppInstalled from '../Error/NoAppInstalled';
 
 const InstalledApps = () => {
 
@@ -32,6 +33,12 @@ const InstalledApps = () => {
         }
     }
 
+    const handleDelete = (app) => {
+        const filtered = appInstalled.filter(ap => ap.id !== app.id);
+        setAppInstalled(filtered);
+        removeFromDB(app.id);
+    }
+
     return (
         <div className='container mx-auto mb-20'>
             <div className='my-15 text-center'>
@@ -51,11 +58,24 @@ const InstalledApps = () => {
                 </details>
             </div>
 
-            <div className='grid gap-3'>
-                {
-                    appInstalled.map(app => <InstalledApp key={app.id} app={app}></InstalledApp>)
-                }
-            </div>
+            {
+                (() => {
+                    if (appInstalled.length === 0) {
+                        return <NoAppInstalled></NoAppInstalled>
+                    }
+                    
+                    return(
+                        <div className='grid gap-3'>
+                            {
+                                appInstalled.map(app => <InstalledApp key={app.id} app={app} 
+                                    setAppInstalled={setAppInstalled} 
+                                    appInstalled={appInstalled}
+                                    handleDelete={handleDelete}></InstalledApp>)
+                            }
+                        </div>
+                    )
+                })()
+            }
         </div>
     );
 };
