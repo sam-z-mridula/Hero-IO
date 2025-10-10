@@ -16,7 +16,6 @@ const InstalledApps = () => {
         const storedAppData = getStoredApp();
         const convertedAppData = storedAppData.map(id => parseInt(id));
         const eachInstalledApp = data.filter(app => convertedAppData.includes(app.id));
-        // console.log(eachInstalledApp);
         setAppInstalled(eachInstalledApp);
     }, [])
 

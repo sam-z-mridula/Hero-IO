@@ -7,9 +7,6 @@ import AllApps from '../Pages/AllApps/AllApps';
 import AppDetails from '../Pages/AppDetails/AppDetails';
 import InstalledApps from '../Pages/InstalledApps/InstalledApps';
 import AppError from '../Pages/Error/AppError';
-// import LoadingSpinner from '../Pages/LoadingSpinner/LoadingSpinner';
-
-// const appPromise = fetch('/AllAppData.json').then(res => res.json());
 
 const router = createBrowserRouter([
   {
@@ -26,9 +23,6 @@ const router = createBrowserRouter([
         {
           path: "/all-apps",
           loader: () => fetch('/AllAppData.json'),
-          // element: <Suspense fallback={<LoadingSpinner></LoadingSpinner>}>
-          //   <AllApps appPromise={appPromise}></AllApps>
-          // </Suspense>
           Component: AllApps
         },
         {

@@ -8,7 +8,7 @@ const ReviewChart = ({ratings}) => {
     return (
         <div className='mt-10'>
             <h1 className='mb-5 text-xl font-semibold'>Rating</h1>
-        <ResponsiveContainer width="100%" height={300} className='md:rotate-0'>
+        <ResponsiveContainer width="100%" height={300}>
             <BarChart
                 data={reversedData}
                 layout='vertical'>

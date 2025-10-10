@@ -22,5 +22,5 @@ const SingleApp = ({ singleApp }) => {
     </Link>
   );
 };
-// className={`bg-[url(${image})] w-full`}
+
 export default SingleApp;

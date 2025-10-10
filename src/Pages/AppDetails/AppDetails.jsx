@@ -18,7 +18,6 @@ const AppDetails = () => {
     
     const data = useLoaderData();
     const singleApp = data.find(app => app.id === appId)
-    // console.log(singleApp);
     
     const {image, title, companyName, downloads, size, ratingAvg, reviews, ratings, description} = singleApp;
 
@@ -36,9 +35,6 @@ const AppDetails = () => {
         const convertedAppData = storedAppData.map(id => parseInt(id));
         const appsToDisable = data.filter(app => convertedAppData.includes(app.id));
         
-        // console.log(appId);
-        // console.log(appsToDisable);
-
          appsToDisable.map(app => {
             if (app.id === appId) {
                 setIsActive(false);
