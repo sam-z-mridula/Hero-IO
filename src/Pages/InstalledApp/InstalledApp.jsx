@@ -1,6 +1,7 @@
 import { Download } from 'lucide-react';
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 // import { removeFromDB } from '../../utility/addToDB';
 // import { removeFromDB } from '../../utility/addToDB';
 
@@ -10,6 +11,7 @@ const InstalledApp = ({app, handleDelete}) => {
 
     const handleRemove = () => {
         handleDelete(app);
+        toast.error("App Uninstalled");
     }
 
     return (
