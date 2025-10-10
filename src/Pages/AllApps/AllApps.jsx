@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import SingleApp from '../SingleApp/SingleApp';
 import { IoIosApps } from "react-icons/io";
-import AppError from '../Error/AppError';
 import { useLoaderData } from 'react-router';
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 import appErrImg from "../../assets/App-Error.png"
@@ -57,7 +56,7 @@ const AllApps = () => {
                 </div>
     
     
-                <div className='grid md:grid-cols-4 gap-8 md:gap-5 w-[85%] mx-auto'>
+                <div className='grid md:grid-cols-4 gap-8 md:gap-5 md:w-full w-[85%] mx-auto'>
                     
                     {
                         loading 
